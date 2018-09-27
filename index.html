@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CLEANING</title>
+	<link rel="stylesheet" href="site.css">
+	<link rel="stylesheet" href="jqueryui/jquery-ui.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="calculator">
+	<div class="flat-container">
+		
+			  <div id="flat-slider"> </div>
+			  <p>
+				<label for="flat-amount">Кол-во комнат</label>
+				<input type="text" id="flat-amount" readonly>
+			  </p>
+			
+			  <input type="checkbox" id="myCheckbox1" />
+			  <label for="myCheckbox1"><div class="icon icon1"></div></label>
+			  <input type="checkbox" id="myCheckbox2" />
+			  <label for="myCheckbox2"><div class="icon icon2"></div></label>
+			  <input type="checkbox" id="myCheckbox3" />
+			  <label for="myCheckbox3"><div class="icon icon3"></div></label>
+			
+	</div>
+
+	<div class="office-container">
+		
+			<div id="flat-slider"> </div>
+			<div id="office-slider"> </div>
+			<p>
+			  <label for="office-amount">Квадратных метров</label>
+			  <input type="text" id="office-amount" readonly>
+			</p>
+		
+			<input type="checkbox" id="myCheckbox4" />
+			<label for="myCheckbox4"><div class="icon icon4"></div></label>
+			<input type="checkbox" id="myCheckbox5" />
+			<label for="myCheckbox5"><div class="icon icon5"></div></label>
+     </div>
+           <button id="flat">Квартира</button>
+		
+		   <button id="office">Офис</button>
+	 		<br> <br>
+		   <label for="total">Итого:</label>
+			<input type="text" id="total" readonly грн>
+		</div>
+
+	<script src="js/slider.js"></script>
+</body>
+</html>
